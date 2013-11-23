@@ -1,4 +1,3 @@
-
 /**
 *
 * @author: Khurshid.Normuradov
@@ -31,13 +30,13 @@ int main()
     }
    
    
-   //print square roots reverse order.
+   //print square roots with reverse order.
     while ( size --> 0 ) {
         printf("%.4lf\n", massiv[size] ) ;
     }
     
     
-    // clear dynamic array
+    // release dynamic array
     delete [] massiv;
     
     return 0;
